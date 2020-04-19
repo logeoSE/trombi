@@ -1,4 +1,4 @@
-"#TEAM,LOGIN,NOM,PRENOM,NAISSANCE,ARRIVEE,FONCTION,MAIL,SKYPE,FIXE,PORTABLE,MANAGER,ROOM"
+"TEAM,LOGIN,NOM,PRENOM,NAISSANCE,ARRIVEE,FONCTION,MAIL,SKYPE,FIXE,PORTABLE,MANAGER,ROOM"
 "SGC","ghammond","Hammond","George","1900/07/17","2014/03/20","General","ghammond@sgc.com","hammond_du_texas.skype","012324567","062324567","","room"
 "SG1","joneil","O'Neil","Jack","1900/07/17","2014/03/20","Colonel","oneil@sg1.com","jackoneil.skype","012324567","062324567","ghammond","room"
 "SG1","scarter","Carter","Samantha","1900/07/17","2014/03/20","Major","sam@sg1.com","sam.skype","012324567","062324567","joneil","room"

@@ -1,0 +1,24 @@
+{
+  "name": "trombi",
+  "version": "1.0.0",
+  "description": "trombi/orga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logeoSE/trombi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logeoSE/trombi/issues"
+  },
+  "homepage": "https://github.com/logeoSE/trombi#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  }
+}
