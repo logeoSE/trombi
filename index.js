@@ -9,10 +9,12 @@ const _ = require('lodash');
  
 fs.createReadStream('data/persons.csv')
   .pipe(csv(["TEAM","LOGIN","NOM","PRENOM","NAISSANCE","ARRIVEE","FONCTION","MAIL","SKYPE","FIXE","PORTABLE","MANAGER","ROOM"]))
-  .on('data', (data) => persons.push(data))
+  .on('data', (data) => persons.push(_.extend(data,{"PHOTO": "http://localhost:3000/photos/" + data.LOGIN})))
   .on('end', () => {
     console.log(persons);
   });
+
+app.use('/photos', express.static(__dirname + '/data/photos'));
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
